@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Myo Glass Companion</string>
+    <string name="notification_disconnected_title">Myo armband disconnected</string>
+    <string name="notification_connected_title">Myo armband connected</string>
+    <string name="notification_unlocked_title">Myo armband unlocked</string>
+    <string name="notification_text">Touch to go to Myo Glass Companion.</string>
+    <string name="start">Start Screencast</string>
+    <string name="stop">Stop Screencast</string>
+    <string name="choose_myo">Choose Myo</string>
+    <string name="choose_glass">Choose Glass</string>
+    <string name="myo_arm_left">Arm: Left</string>
+    <string name="myo_arm_right">Arm: Right</string>
+    <string name="myo_arm_unknown">Arm: Unknown</string>
+    <string name="connected">CONNECTED</string>
+    <string name="disconnected">DISCONNECTED</string>
+    <string name="no_devices_title">No paired devices.</string>
+    <string name="no_devices_message">Glass must be paired before connecting.</string>
+    <string name="kill_myglass">Kill MyGlass</string>
+
+</resources>

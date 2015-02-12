@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center|left"
+    android:gravity="center|left"
+    tools:layout_height="64dp">
+
+    <ImageView android:id="@+id/notification_image"
+        android:layout_width="@dimen/notification_image_width"
+        android:layout_height="@dimen/notification_image_height"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside"
+        style="@android:style/TextAppearance.StatusBar.Icon"
+        tools:src="@drawable/ic_stat_myo_blue" />
+
+    <ImageButton
+        android:id="@+id/notification_close_button"
+        android:layout_width="@dimen/notification_image_width"
+        android:layout_height="@dimen/notification_image_height"
+        android:layout_alignParentRight="true"
+        android:background="?android:selectableItemBackground"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        style="@android:style/TextAppearance.StatusBar.Icon"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/notification_image"
+        android:layout_toLeftOf="@id/notification_close_button"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            style="@android:style/TextAppearance.StatusBar.EventContent.Title"
+            tools:text="@string/notification_connected_title"/>
+
+        <TextView
+            android:id="@+id/notification_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.StatusBar.EventContent"
+            tools:text="@string/notification_text"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
