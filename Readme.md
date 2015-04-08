@@ -1,5 +1,10 @@
 # Myo Glass Companion Protocol Input
 
+<a href="https://market.myo.com/app/55243f41e4b0526c9cb198c0/">
+  <img alt="Android app on Myo Market"
+       src="https://s3.amazonaws.com/thalmicdownloads/misc/myo_market_badge.png" />
+</a>
+
 Uses Glass Companion Bluetooth protocol to connect to Google Glass Explorer Edition and control the native ui/interface using the &copy;Myo Gesture Control Armband (thalmic.com/myo).
 
 This is a basic proof of concept and should not be considered the best practice for a gesture based HUD interface. Gesture are mapped directly the comparable gestures on the Glass trackpad. For example, swipe right to swipe the card to the right:
