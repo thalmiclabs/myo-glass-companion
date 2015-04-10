@@ -50,7 +50,7 @@ public class MyoRemoteService extends Service {
         super.onCreate();
 
         Hub hub = Hub.getInstance();
-        if (!hub.init(this)) {
+        if (!hub.init(this, getPackageName())) {
             stopSelf();
             return;
         }
