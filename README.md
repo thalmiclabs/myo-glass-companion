@@ -5,6 +5,8 @@
        src="https://s3.amazonaws.com/thalmicdownloads/misc/myo_market_badge.png" />
 </a>
 
+> North (formerly Thalmic Labs), the creator of the Myo armband, was acquired by Google in June 2020. Myo sales ended in October 2018 and Myo software, hardware and SDKs are no longer available or supported. [Learn more.](https://support.getmyo.com)
+
 Uses Glass Companion Bluetooth protocol to connect to Google Glass Explorer Edition and control the native ui/interface using the &copy;Myo Gesture Control Armband (thalmic.com/myo).
 
 This is a basic proof of concept and should not be considered the best practice for a gesture based HUD interface. Gesture are mapped directly the comparable gestures on the Glass trackpad. For example, swipe right to swipe the card to the right:
